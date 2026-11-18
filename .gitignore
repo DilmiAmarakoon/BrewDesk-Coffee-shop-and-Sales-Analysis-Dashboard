@@ -1,17 +1,32 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
-.mvn/wrapper/maven-wrapper.jar
+# Dependencies
+node_modules/
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Generated build, test and cache output
+dist/
+dist-ssr/
+build/
+coverage/
+.vite/
+.cache/
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore future uploads; retain the existing reviewed product photos
+backend/uploads/menu/*
+!backend/uploads/menu/389d830d-4075-433f-92e5-4a8f218f3e1f.png
+!backend/uploads/menu/3d333e4f-86c4-4391-82c1-dd08d0bc09ce.png
+!backend/uploads/menu/76909b68-2d75-437d-8845-74456b35159d.png
+!backend/uploads/menu/80790305-d311-4119-906d-74061a20d885.png
+!backend/uploads/menu/c14b8811-234c-4054-88ae-31d8cf6dd175.png
+!backend/uploads/menu/ffd9fdca-65c7-466a-990e-16c0dca34ac1.png
+ 
